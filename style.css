@@ -1,0 +1,111 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body
+{
+    background-color: #08AEEA;
+    background-image: linear-gradient(270deg, #08AEEA 0%, #2AF598 100%);
+    background-color: no-repeat;
+}
+
+.custom-shape-divider-bottom-1647636973 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1647636973 svg {
+    position: relative;
+    display: block;
+    width: calc(215% + 1.3px);
+    height: 357px;
+}
+
+.custom-shape-divider-bottom-1647636973 .shape-fill {
+    fill: #EBEBEB;
+}
+
+.container
+{
+    height: 500px;
+    background-size: 80 ; 
+    background-repeat:repeat;
+}
+
+.container .navbar
+{
+    width: 100%;
+    height: 80px;
+}
+
+.logo
+{
+    display: inline-block;
+     margin-left: 50px;
+     margin-top: 20px;
+     font-size: 29px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: lighter 100px;
+ }
+
+ a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #f3f3f3;
+}
+
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+     ;
+}
+
+.navbar ul li{
+    list-style: none;
+    display:inline-block ;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: Roboto;
+    transition: .90s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: #2AF598;
+    border-radius: 20px;
+
+}
+
+.yazı h1{
+    position: relative;
+    left: 300px;
+    bottom: 320px;
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: #EBEBEB;
+}
+
+.yazı h2{
+    position: relative;
+    left: 600px;
+    bottom: 300px;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
